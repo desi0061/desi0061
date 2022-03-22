@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Dorry Desire">
+	<title>Assignment 3</title>
+</head>
+<body>
+	<header>
+		<h1>Assignment 3</h1>
+		<h3>Info</h3>
+	</header>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="page.php" method="get">
+				<div id="fn-container" class="form-em">
+					<label for="fn">First name</label>
+					<input type="text" name="fn" id="fn" placeholder="Enter first name">
+				</div> 
+				<div id="ln-container" class="form-em">
+					<label for="ln">Last Name</label>
+					<input type="text" name="ln" id="ln" placeholder="Enter last name">
+				</div>
+				<div id="email-container" class="form-em">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" value="email@mail.com" readonly required>
+				</div>
+				<div id="pass-container" class="form-em">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<div id="intro-container" class="form-em">
+					<label for="intro">Introduction</label>
+					<textarea name="intro" id="intro" placeholder="Introductory Area">
+						This is the value of text area
+					</textarea>
+				</div>
+				<div id="dat-container" class="form-em">
+					<label for="dat">Date of Birth</label>
+					<input type="date" id="dat" name="dat" required>
+				</div>
+				<div id="num-container" class="form-em">
+					<label for="num">Mobile Number</label>
+					<input type="number" id="num" name="num" min="10" max="10" required>
+				</div>
+				<div id="gen-container" class="form-em">
+					<p>Gender</p>
+					<label for="gen">
+					<input type="radio" name="gen" id="gen" value="gen" checked>
+						Male
+					</label>
+					<label for="gen2">
+					<input type="radio" name="gen2" id="gen2" value="gen2">
+						Female
+					</label>
+					<label for="gen3">
+					<input type="radio" name="gen3" id="gen3" value="gen3">
+						Other
+					</label>
+				</div>
+				<div id="add-container" class="form-em">
+					<label for="add">Address</label>
+					<input type="text" name="add" id="add" placeholder="Enter Address" required>
+				</div>
+				<div id="city-container" class="form-em">
+					<label for="city">City</label>
+					<input type="text" name="city" id="city">
+				</div><br>
+				<div id="cou-drop-contianer" class="form-em">
+					<label for="cou">Country</label>
+					<select id="cou" name="cou">
+						<option value="usa">United States</option>
+						<option value="cad">Canada</option>
+						<option value="chn">China</option>
+						<option value="mex">Mexico</option>
+						<option value="bra">Brazil</option>
+					</select>
+				</div>
+				<div id="pro-drop-contianer" class="form-em">
+					<label for="pro">Province or State</label>
+					<select id="pro" name="pro">
+						<optgroup label="United States">
+							<option value="fl">Florida</option>
+						</optgroup>
+						<optgroup label="Canada">
+							<option value="ab">Alberta</option>
+						</optgroup>
+						<optgroup label="China">
+							<option value="hn">Hainan</option>
+						</optgroup>
+						<optgroup label="Mexico">
+							<option value="sn">Sonora</option>
+						</optgroup>
+						<optgroup label="Brazil">
+							<option value="bh">Bahia</option>
+						</optgroup>
+					</select>
+				</div>
+				<div id="zc-container" class="form-em">
+					<label for="zc">Postal Code</label>
+					<input type="text" name="zc" id="zc" placeholder="Enter Postal Code" required>
+				</div>
+			<fieldset>
+					<!-- title of fieldset -->
+					<legend>Hobbies and Interests</legend>
+				<div>
+					<label for="exercise">
+							Exercising
+					<input type="checkbox" name="exercise" id="exercise">
+					</label>
+					<label>
+							Eating
+					<input type="checkbox" name="eat" id="eat">
+					</label>
+					<label>
+							Sleeping
+					<input type="checkbox" name="sleep" id="sleep">
+					</label>
+					<label>
+							Playing
+					<input type="checkbox" name="play" id="play">
+					</label>
+				</div>
+			</fieldset>
+				<div id="url-container" class="form-em">
+					<label for="url">Enter your Website URL:</label>
+					<input type="url" name="url" id="url" >
+				</div>
+			</form>
+		</section>
+	</div>
+	<footer>
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+	</footer>
+</body>
+</html>		
+
+
+
