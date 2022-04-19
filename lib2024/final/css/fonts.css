@@ -15,7 +15,7 @@
     font-style: normal;
 
 }
-
+<!--for some reason the font-face rule wouldnt work for me -->
 .logo {
 	font-family: 'ohio_kraftregular';
 	font-size: 80px;
