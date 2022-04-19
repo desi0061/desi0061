@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'some_time_laterregular';
+    src:url('sometimelater-webfont.woff2') format('woff2'),
+    	url('sometimelater-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ohio_kraftregular';
+    src: url('ohiokraft-webfont.woff2') format('woff2'),
+         url('ohiokraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.logo {
+	font-family: 'ohio_kraftregular';
+	font-size: 80px;
+	text-align: center;
+	color: #428CDC;
+}
